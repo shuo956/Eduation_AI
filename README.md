@@ -5,6 +5,8 @@
 * text_analyzer.py are used to construct object for each video and get next sentence prediction score for questions and corrosponding candidate answer in documents.
 * table_for_ted_ed.xlsx contains basic stats from ted-ed.
 ## Findings from ted-ed
-1.Video hint with transcript not necessarily mapped to orginal sentences 
+1.Video hint with transcript not necessarily mapped to orginal sentences.
+
 2.using next sentence prediction may not accurately find the corresponding sentences if we rank the confidence score of sentences. 
+
 3.Video hint may not accuracte, even manually located video hint for one question may require contextual information to correctly answer questions.
