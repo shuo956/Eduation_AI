@@ -11,7 +11,7 @@
 
 3.Video hint may not accuracte, even manually located video hint for one question may require contextual information to correctly answer questions.
 
-## Example for questions require extra knowledge:
+## Example question that requires extra knowledge:
 
 You are measuring length with a meter stick. However, you do not realize that the first 4.0 centimeters of the meter stick are missing because a hungry beaver made a snack of it earlier that day. The measurements you take with the meter stick will be: 
 
