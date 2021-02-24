@@ -10,3 +10,21 @@
 2.using next sentence prediction may not accurately find the corresponding sentences if we rank the confidence score of sentences. 
 
 3.Video hint may not accuracte, even manually located video hint for one question may require contextual information to correctly answer questions.
+
+Example for questions require extra knowledge:
+
+You are measuring length with a meter stick. However, you do not realize that the first 4.0 centimeters of the meter stick are missing because a hungry beaver made a snack of it earlier that day. The measurements you take with the meter stick will be: 
+
+A Accurate, but imprecise 
+
+B  Precise, but inaccurate 
+
+C  Imprecise and inaccurate 
+
+D  Accurate and precise 
+
+Video hint: Precision, on the other hand, is how consistently you can get  that result using the same method 
+
+Predicted hint: Your accuracy improves with tools that are calibrated correctly and that you're well-trained on 
+
+Human Judge: Both.
