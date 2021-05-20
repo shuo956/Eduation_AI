@@ -58,3 +58,13 @@ file:
 3.download_image.py-----user image download 
 4.image_user.py---- crawl information of subcribed student
 5.integrate_data.py----combine data with instructors and courses
+
+
+### Opinion extraction
+file:
+1.text_analyzer.py ------- main implmentation of opinion score {aspects:score,rating: rating,content: content, id:id}
+2.score_analyzer.py ------- reformat data to 5 aspects and informations
+3.separete_course_review.py-----separated all courses into sujects
+dataset:
+1.summary_review_content.csv -----summary opinion with orientation
+2.summary_review_zero_content.csv -----summary of opinion with no orientation
