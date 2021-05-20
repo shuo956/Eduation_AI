@@ -47,26 +47,26 @@ Human Judge: Both.
 6. scripts-question.py --------step calculation for located sentence to true answers
 ### Umdy
 #### dataset:
-1.category_course----- brief course infomration based on main subject
-2.collected_user-------- try url for different user name collected from reviews.
-3.course by id-----course decription,ID,average rating, distribution
-4.instructor_id-------collected instructor html info contains all descriptions
-5.interagted_file-----integrated info with course and instructor
-6.downloaded----user_id
+1. category_course----- brief course infomration based on main subject
+2. collected_user-------- try url for different user name collected from reviews.
+3. course by id-----course decription,ID,average rating, distribution
+4. instructor_id-------collected instructor html info contains all descriptions
+5. interagted_file-----integrated info with course and instructor
+6. downloaded----user_id
 #### file:
-1.crawl_instructor_info.py----- crawl instructors
-2.crawler_review.py---- crawl review by id
-3.download_image.py-----user image download 
-4.image_user.py---- crawl information of subcribed student
-5.integrate_data.py----combine data with instructors and courses
+1. crawl_instructor_info.py----- crawl instructors
+2. crawler_review.py---- crawl review by id
+3. download_image.py-----user image download 
+4. image_user.py---- crawl information of subcribed student
+5. integrate_data.py----combine data with instructors and courses 
 
 
 ### Opinion extraction
 #### file:
-1.text_analyzer.py ------- main implmentation of opinion score {aspects:score,rating: rating,content: content, id:id}
-2.score_analyzer.py ------- reformat data to 5 aspects and informations
-3.separete_course_review.py-----separated all courses into sujects
-4.subject_level_mlr.py-----reformat data to csv file
+1. text_analyzer.py ------- main implmentation of opinion score {aspects:score,rating: rating,content: content, id:id}
+2. score_analyzer.py ------- reformat data to 5 aspects and informations
+3. separete_course_review.py-----separated all courses into sujects
+4. subject_level_mlr.py-----reformat data to csv file
 #### dataset:
-1.summary_review_content.csv -----summary opinion with orientation
-2.summary_review_zero_content.csv -----summary of opinion with no orientation
+1. summary_review_content.csv -----summary opinion with orientation
+2. summary_review_zero_content.csv -----summary of opinion with no orientation
