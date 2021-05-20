@@ -35,16 +35,16 @@ Human Judge: Both.
 ## Component
 ### Ted-ed
 #### dataset:
-1.transcripts.zip ------------------transcripts of videos
-2.question_corrected.txt -------video description and question 
-3.category_video_relation ------- dictionary contains category information of course
+1. transcripts.zip ------------------transcripts of videos
+2. question_corrected.txt -------video description and question 
+3. category_video_relation ------- dictionary contains category information of course
 #### file:
-1.crawler.py ------crawler file modifed for answering
-2.crawler_for_question.py ------crawler for questions
-3.get_all_transcripts.py ---crawler file for transcripts
-4.correct_question.py ------ question aligment to answers
-5.text_analyzer.py------- basic stats for transcripts and questions
-6.scripts-question.py --------step calculation for located sentence to true answers
+1. crawler.py ------crawler file modifed for answering
+2. crawler_for_question.py ------crawler for questions
+3. get_all_transcripts.py ---crawler file for transcripts
+4. correct_question.py ------ question aligment to answers
+5. text_analyzer.py------- basic stats for transcripts and questions
+6. scripts-question.py --------step calculation for located sentence to true answers
 ### Umdy
 #### dataset:
 1.category_course----- brief course infomration based on main subject
@@ -52,6 +52,7 @@ Human Judge: Both.
 3.course by id-----course decription,ID,average rating, distribution
 4.instructor_id-------collected instructor html info contains all descriptions
 5.interagted_file-----integrated info with course and instructor
+6.downloaded----user_id
 #### file:
 1.crawl_instructor_info.py----- crawl instructors
 2.crawler_review.py---- crawl review by id
