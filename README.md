@@ -65,6 +65,7 @@ file:
 1.text_analyzer.py ------- main implmentation of opinion score {aspects:score,rating: rating,content: content, id:id}
 2.score_analyzer.py ------- reformat data to 5 aspects and informations
 3.separete_course_review.py-----separated all courses into sujects
+4.subject_level_mlr.py-----reformat data to csv file
 dataset:
 1.summary_review_content.csv -----summary opinion with orientation
 2.summary_review_zero_content.csv -----summary of opinion with no orientation
